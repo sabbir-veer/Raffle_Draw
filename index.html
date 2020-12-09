@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raffle Draw</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Raffle Draw</h1>
+      <div class="part">
+        <div class="part__left">
+          <div class="label">&nbsp;&nbsp;Enter all names</div>
+          <textarea
+            name="box"
+            cols="40"
+            rows="10"
+            class="names"
+            id="inp"
+            placeholder="names should be seprated with a comma followed by a space"
+          ></textarea
+          ><br />
+          <button class="btn btn-show">Show all names</button>
+          <button class="btn btn-shuffle">Shuffle names</button>
+          <div class="card">
+            <ul class="list-grp" id="name-list">
+              <!-- <li class="list-grp-item">First</li>
+              <li class="list-grp-item">First</li>
+              <li class="list-grp-item">First</li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="part__right">
+          <div>output display</div>
+          <div class="display">Display</div>
+          <button class="btn btn-play">Give a try</button>
+          <div class="winner">
+            <span>First winner: </span>
+            <div class="winner__list winner__first"></div>
+            <span>Second winner: </span>
+            <div class="winner__list winner__second"></div>
+            <span>Third winner: </span>
+            <div class="winner__list winner__third"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
