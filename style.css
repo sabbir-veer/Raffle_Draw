@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #5a707d;
+}
+h1 {
+  /* background-color: brown; */
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.part {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 31px;
+  background: #7998a9;
+  box-shadow: 19px 19px 37px #5a707d, -10px -10px 27px #98c0d5;
+}
+
+.part__left {
+  margin: 0px auto;
+  /* background-color: brown; */
+}
+.label {
+  line-height: 2rem;
+}
+textarea {
+  padding: 10px;
+  /* border-radius: 50px; */
+  color: white;
+  font-size: large;
+  outline: none;
+  border: 0.5px solid black;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #71838c, #869ba6);
+  box-shadow: 8px 8px 10px #596a74, -10px -10px 12px #90a7b2;
+}
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  /* border-radius: 10px; */
+  outline: none;
+  border-bottom: 1px solid burlywood;
+  /* border-radius: 35px; */
+  background: linear-gradient(145deg, #81a3b5, #6d8998);
+  box-shadow: 7px 7px 7px #506470, -5px -3px 8px #a2cce2;
+}
+.btn-shuffle {
+  margin-left: 10px;
+}
+.btn-play {
+  margin-left: 20%;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.list-grp {
+  list-style-type: none;
+  margin-top: 10px;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+}
+.list-grp-item {
+  margin: 5px;
+  /* visibility: hidden; */
+}
+.display {
+  /* background: brown; */
+  width: 60%;
+  border: 2px solid black;
+  font-size: xx-large;
+  /* height: 70px; */
+  text-align: center;
+  padding: 30px;
+  border-radius: 35px;
+  background: #7998a9;
+  box-shadow: inset 9px 9px 10px #506470, inset -9px -9px 10px #a2cce2;
+}
+
+.winner {
+  /* background: crimson; */
+  width: 60%;
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.winner__list {
+  margin: 10px;
+  border: 1px solid burlywood;
+  padding: 10px;
+  background: linear-gradient(145deg, #81a3b5, #6d8998);
+  box-shadow: 7px 7px 7px #506470, -5px -3px 8px #a2cce2;
+}
